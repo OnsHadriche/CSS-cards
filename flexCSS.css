@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(215, 240, 240, 0.705);
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.blockCard{
+    width: 230px;
+    height: 430px;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardIMG img{
+    width: 230px;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+}
+.def {
+    text-align: center;
+    line-height: 1.5;
+} 
+.def h3{
+    color: rgb(44, 8, 44);
+}
+.btn button{
+    width:150px;
+    height: 50px;
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: rgb(20, 10, 20);
+}
+.btn button:hover{
+    color: black;
+    background-color: white;
+}
+.text{
+    color: rgb(158, 39, 108);
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    border-radius: 5px 5px 5px 5px ;
+    background-color: rgb(155, 187, 202);
+}
+.big_container{
+   background-color: rgb(212, 195, 212);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   display: none;
+}
+.small_container{
+    margin-top: 10px;
+    margin-left: 250px;
+    border-radius: 12px;
+    width: 500px;
+    background-color: white;
+}
+.small_container p{
+    text-align: center;
+}
+.btn_1{
+    margin-left: 220px ;
+}
+.btn_1 button{
+    background-color: rgb(0, 174, 255);
+    width: 50px;
+}
+.big_container_1{
+    display: block;
+}
+
+
+.dark{
+    background-color: rgb(6, 24, 41);
+    color:black;
+}
+
+@media screen and (max-width: 800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
